@@ -186,19 +186,3 @@ header h2
         color: white;
         font-size: 1vw;
     }
-
-.chronic-right, .chronic-left
-    {
-        display: inline-block;
-    }
-
-.chronic-left
-    {
-        margin-right: 50%;
-    }
-
-.chronic-right
-    {
-        float: right;
-        margin-left: 50%;
-    }
