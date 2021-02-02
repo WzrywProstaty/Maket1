@@ -304,20 +304,33 @@ header h2
 
 /* ---------------div_BUILDINGS--------------- */
 
-.buildings
+.railroad
     {
-        float: left;
-        position: relative;
-        width: 100%;
-        transition: 0.5s;
+        position: absolute;
+        z-index: 999;
+        overflow: hidden;
+        padding-top: 10.5vw;
+        background: transparent;
+        top: 103.2vw;
     }
+
+    .buildings
+        {
+            float: left;
+            position: relative;
+            width: 100%;
+            transition: 0.5s;
+            background: transparent;
+        }
+
 
     .bldngs-white, .bldngs-black
         {
             width: 100%;
             vertical-align: top;
-            position: absolute;
             margin-top: -10%;
+            position: relative;
+            background: transparent;
         }
 
     .bldngs-black
